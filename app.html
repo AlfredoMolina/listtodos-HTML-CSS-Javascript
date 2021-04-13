@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3382a1d76f.js" crossorigin="anonymous"></script>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="class text-center text-light my-4">
+            <h1 class="mb-4"> ToDo List</h1>
+            <form class="search">
+                <input type="text" class="form-control m-auto" type="text" name="search" placeholder="Search">
+
+
+            </form>
+        </header>
+
+        <ul class="list-group todos mx-auto text-light">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span> pickup groceries</span>
+                <i class="fas fa-trash-alt delete"></i>
+
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span> make dinner</span>
+                <i class="fas fa-trash-alt delete"></i>
+
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span> clean house</span>
+                <i class="fas fa-trash-alt delete"></i>
+
+            </li>
+            <br>
+        </ul>
+        <br>
+        <form class="add text-center text-light my-4>
+    <label class="text-light">Add </label>
+            <input class="form-control m-auto" type="text" name="add"/>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
